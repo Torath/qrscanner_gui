@@ -30,7 +30,7 @@ export default {
       submitFile(){
           let formData = new FormData();
           formData.append('img', this.image)
-          axios.post('http://127.0.0.1:5000/',
+          axios.post('http://torath.pythonanywhere.com',
             formData,
             {
                 headers: {
